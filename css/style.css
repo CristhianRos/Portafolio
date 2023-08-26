@@ -48,6 +48,9 @@ a {
 img {
   max-width: 100%;
 }
+.imag{
+  fill: #0044ff !important; 
+}
 
 li {
   list-style-type: none;
