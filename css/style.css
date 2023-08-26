@@ -5,7 +5,7 @@
   --purple: #ce00ff;
   --blue: #0044ff;
   --orange: #ff4600;
-  --cyan: #03ffc7;
+  --gray: #5f5f5f;
   --light: #33b3e6;
 }
 
@@ -333,21 +333,23 @@ li {
   position: absolute;
   bottom: 5%;
   right: 10%;
-  color: #fff
+  color: #fff;
 }
 
-.icons span:not(:last-child) {
+.icons a:not(:last-child) {
 
   margin-right: 1rem;
+  color: #fff;
 }
 
-.icons span {
+.icons a {
   font-size: 2rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
+  color: #fff;
 }
 
-.icons span:hover i {
+.icons a:hover i {
   color: var(--customColor);
 }
 
@@ -417,7 +419,7 @@ li {
 }
 
 .control .colors span:nth-child(1) {
-  background-color: var(--cyan);
+  background-color: var(--gray);
 }
 
 .control .colors span:nth-child(2) {
