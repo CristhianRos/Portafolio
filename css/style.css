@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
 
 :root {
-  --customColor: invert(15%) sepia(100%) saturate(4035%) hue-rotate(227deg) brightness(103%) contrast(115%);
+  --customColor: #5f5f5f;
   --purple: #ce00ff;
   --blue: #0044ff;
   --orange: #ff4600;
@@ -50,7 +50,7 @@ img {
   max-width: 100%;
 }
 .imag{
-  filter: var(--customColor);
+  background: var(--customColor);
 }
 
 li {
